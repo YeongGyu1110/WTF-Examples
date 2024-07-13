@@ -1,4 +1,5 @@
 function response(room, msg, sender, isGroupChat, replier, ImageDB, packageName) {
+    if (msg == "hello") {
         var h = ['H', 'e', 'l', 'l', 'o', ' '];
         var w = ['W', 'o', 'r', 'l', 'd'];
         var str = '';
@@ -19,7 +20,7 @@ function response(room, msg, sender, isGroupChat, replier, ImageDB, packageName)
                 }
             })(str);
         }    
-    if (typeof msg === 'number') { 
+    } else if (typeof msg === 'number') { 
         if (msg > 0) { 
             replier.reply("Hello, World!");
         }
