@@ -1,4 +1,4 @@
-# WTFExamples
+# WTF-Examples
 - response 함수를 사용해서 카카오톡에 적용할 수 있습니다.
 
 # 불-편한 예제 코드
